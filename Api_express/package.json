@@ -1,0 +1,20 @@
+{
+  "name": "claudent-api-express",
+  "version": "1.0.0",
+  "description": "API REST académica de CLAUDENT conectada a PostgreSQL en Supabase",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
